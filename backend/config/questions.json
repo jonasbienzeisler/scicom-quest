@@ -1,0 +1,151 @@
+{
+    "likert": [
+      {
+        "id": "likert1",
+        "dimension": "politics",
+        "text": {
+          "de": "Frage 1 zu Politik (DE)",
+          "en": "Question 1 on politics (EN)"
+        }
+      },
+      {
+        "id": "likert2",
+        "dimension": "politics",
+        "text": {
+          "de": "Frage 2 zu Politik (DE)",
+          "en": "Question 2 on politics (EN)"
+        }
+      },
+      {
+        "id": "likert3",
+        "dimension": "politics",
+        "text": {
+          "de": "Frage 3 zu Politik (DE)",
+          "en": "Question 3 on politics (EN)"
+        }
+      },
+      {
+        "id": "likert4",
+        "dimension": "neutrality",
+        "text": {
+          "de": "Frage 1 zu Neutralität (DE)",
+          "en": "Question 1 on neutrality (EN)"
+        }
+      },
+      {
+        "id": "likert5",
+        "dimension": "neutrality",
+        "text": {
+          "de": "Frage 2 zu Neutralität (DE)",
+          "en": "Question 2 on neutrality (EN)"
+        }
+      },
+      {
+        "id": "likert6",
+        "dimension": "neutrality",
+        "text": {
+          "de": "Frage 3 zu Neutralität (DE)",
+          "en": "Question 3 on neutrality (EN)"
+        }
+      },
+      {
+        "id": "likert7",
+        "dimension": "authority",
+        "text": {
+          "de": "Frage 1 zu epistemischer Autorität (DE)",
+          "en": "Question 1 on epistemic authority (EN)"
+        }
+      },
+      {
+        "id": "likert8",
+        "dimension": "authority",
+        "text": {
+          "de": "Frage 2 zu epistemischer Autorität (DE)",
+          "en": "Question 2 on epistemic authority (EN)"
+        }
+      },
+      {
+        "id": "likert9",
+        "dimension": "authority",
+        "text": {
+          "de": "Frage 3 zu epistemischer Autorität (DE)",
+          "en": "Question 3 on epistemic authority (EN)"
+        }
+      }
+    ],
+    "yesno": [
+      {
+        "id": "yesno1",
+        "text": {
+          "de": "Verhaltensfrage 1 (DE)",
+          "en": "Behavior question 1 (EN)"
+        }
+      },
+      {
+        "id": "yesno2",
+        "text": {
+          "de": "Verhaltensfrage 2 (DE)",
+          "en": "Behavior question 2 (EN)"
+        }
+      },
+      {
+        "id": "yesno3",
+        "text": {
+          "de": "Verhaltensfrage 3 (DE)",
+          "en": "Behavior question 3 (EN)"
+        }
+      },
+      {
+        "id": "yesno4",
+        "text": {
+          "de": "Verhaltensfrage 4 (DE)",
+          "en": "Behavior question 4 (EN)"
+        }
+      },
+      {
+        "id": "yesno5",
+        "text": {
+          "de": "Verhaltensfrage 5 (DE)",
+          "en": "Behavior question 5 (EN)"
+        }
+      }
+    ],
+    "demographics": [
+      {
+        "id": "age",
+        "type": "number",
+        "label": {
+          "de": "Alter",
+          "en": "Age"
+        }
+      },
+      {
+        "id": "gender",
+        "type": "select",
+        "options": [
+          { "value": "female", "label": { "de": "Weiblich", "en": "Female" } },
+          { "value": "male",   "label": { "de": "Männlich", "en": "Male" } },
+          { "value": "other",  "label": { "de": "Andere",   "en": "Other" } }
+        ],
+        "label": {
+          "de": "Geschlecht",
+          "en": "Gender"
+        }
+      },
+      {
+        "id": "field",
+        "type": "select",
+        "options": [
+          { "value": "natural_sciences", "label": { "de": "Naturwissenschaften",  "en": "Natural Sciences" } },
+          { "value": "social_sciences",  "label": { "de": "Sozialwissenschaften", "en": "Social Sciences" } },
+          { "value": "humanities",       "label": { "de": "Geisteswissenschaften","en": "Humanities" } },
+          { "value": "other",            "label": { "de": "Andere",              "en": "Other" } }
+        ],
+        "label": {
+          "de": "Fachbereich",
+          "en": "Field"
+        }
+      }
+    ]
+  }
+  
