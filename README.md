@@ -60,7 +60,8 @@ docker compose up -d
 # Then visit:
 http://localhost:3000/
 
-# Your logs will be persisted to ./logs/results.txt on the host. In ./backend/config right there in your current working directory. The app reads its config from ./backend/config/ (mounted read-only). To apply changes to the config, simply edit the files locally and restart the container while you are in the root folder:
+Your logs will be persisted to ./logs/results.txt on the host. In ./backend/config right there in your current working directory. The app reads its config from ./backend/config/ (mounted read-only). To apply changes to the config, simply edit the files locally and restart the container while you are in the root folder:
+
 ```bash
 docker compose restart
 ```
