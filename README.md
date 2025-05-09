@@ -66,3 +66,5 @@ Your logs will be persisted to ./logs/results.txt on the host. In ./backend/conf
 ```bash
 docker compose restart
 ```
+
+This work is licensed under Creative Commons Attribution 3.0 (CC BY 3.0) by Jonas Bienzeisler & (heavy hartedly) Nils Bienzeisler. Nils wishes to thank his mom. 
