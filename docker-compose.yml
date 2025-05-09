@@ -1,0 +1,10 @@
+# root/docker-compose.yml
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./logs:/usr/src/app/logs   # so results.txt is persisted on your host
+    environment:
+      NODE_ENV: production

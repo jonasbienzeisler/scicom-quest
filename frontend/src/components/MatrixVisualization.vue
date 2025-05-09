@@ -15,7 +15,7 @@ const configStore = useConfigStore();
 const answerStore = useAnswerStore();
 const { t }       = useI18n();
 
-// color palette per discipline
+// discipline → colour
 const disciplineColors = {
   humanities:       '#6baed6',
   social_sciences:  '#74c476',
@@ -24,7 +24,7 @@ const disciplineColors = {
   other:            '#bbbbbb'
 };
 
-// load the “last complete” history from the server
+// load last‐complete history
 const history = ref([]);
 onMounted(() => {
   fetch('/api/results')
@@ -33,12 +33,14 @@ onMounted(() => {
     .catch(() => { history.value = []; });
 });
 
-// helper: compute (politics, neutrality, authority) means
+// compute average per dimension
 function meanOf(answers) {
   return ['politics','neutrality','authority'].map(dim => {
-    const qs   = (configStore.questions.likert || [])
-                   .filter(q => q.dimension === dim);
-    const vals = qs.map(q => answers[q.id]).filter(v => typeof v === 'number');
+    const qs = (configStore.questions.likert || [])
+      .filter(q => q.dimension === dim);
+    const vals = qs
+      .map(q => answers[q.id])
+      .filter(v => typeof v === 'number');
     return vals.length
       ? vals.reduce((a,b) => a + b, 0) / vals.length
       : 0;
@@ -48,8 +50,8 @@ function meanOf(answers) {
 watchEffect(() => {
   if (!chart.value || !configStore.loaded) return;
 
-  // your own point
-  const [cx, cy, cz] = meanOf(answerStore.answers.likert);
+  // your own coords
+  const [cx, cy, cz] = meanOf(answerStore.answers.likert || {});
 
   // group past participants by discipline
   const groups = {};
@@ -80,7 +82,7 @@ watchEffect(() => {
     })
   );
 
-  // “you” as a bigger red circle
+  // you as a big red circle
   const youTrace = {
     x: [cx], y: [cy], z: [cz],
     mode:     'markers',
@@ -97,8 +99,7 @@ watchEffect(() => {
     chart.value,
     [...histTraces, youTrace],
     {
-      width:  chart.value.clientWidth,
-      height: 600,
+      responsive: true,
       scene: {
         aspectmode: 'cube',
         xaxis: {
@@ -122,7 +123,7 @@ watchEffect(() => {
         orientation: 'h',
         x:           0.5,
         xanchor:     'center',
-        y:           1.2,
+        y:           1.15,
         yanchor:     'bottom'
       }
     }
@@ -132,11 +133,12 @@ watchEffect(() => {
 
 <style scoped>
 .matrix-viz {
-  width: 75vw;   /* 75% of viewport width */
+  width: 100%;   /* fill the parent container */
   height: 600px;
   margin: 0 auto;
 }
 </style>
+
 
 
 

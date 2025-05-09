@@ -82,9 +82,8 @@ function labelFor(val) {
 
 /* Browser-rendered tick marks */
 .slider::-webkit-slider-runnable-track {
-  /* you can customize track here */
+  background-color: #ddd; /* Example customization */
 }
-.slider::-moz-range-track {}
 
 /* Endpoint labels */
 .slider-end {

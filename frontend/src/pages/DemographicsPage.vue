@@ -1,13 +1,17 @@
+<!-- src/pages/DemographicsPage.vue -->
 <template>
   <div v-if="!configStore.loaded" class="loading">
-    {{ $t('loading') }}…
+    {{ t('loading') }}…
   </div>
 
   <div v-else class="demographics-page">
+    <!-- language toggle pill -->
+    <LanguageToggle class="lang-toggle" />
+
     <!-- overall survey page 5 of 5 -->
     <ProgressBar :current="page" :total="totalPages" />
 
-    <h2>{{ $t('demographics') }}</h2>
+    <h2>{{ t('demographics') }}</h2>
 
     <DemographicsForm
       :questions="demographicsQuestions"
@@ -16,10 +20,10 @@
 
     <div class="navigation-buttons">
       <button @click="prev">
-        {{ $t('previous') }}
+        {{ t('previous') }}
       </button>
       <button @click="next">
-        {{ $t('proceedToReflection') }}
+        {{ t('proceedToReflection') }}
       </button>
     </div>
   </div>
@@ -32,7 +36,10 @@ import { useConfigStore } from '@/stores/config';
 import { useAnswerStore } from '@/stores/answers';
 import ProgressBar        from '@/components/ProgressBar.vue';
 import DemographicsForm   from '@/components/DemographicsForm.vue';
+import LanguageToggle     from '@/components/LanguageToggle.vue';
+import { useI18n }        from 'vue-i18n';
 
+const { t }        = useI18n();
 const router       = useRouter();
 const configStore  = useConfigStore();
 const answerStore  = useAnswerStore();
@@ -65,14 +72,25 @@ function prev() {
   text-align: center;
   margin-top: 2rem;
 }
+
 .demographics-page {
+  position: relative;   /* for the toggle */
+  padding-top: 3rem;    /* space for pill */
   max-width: 800px;
   margin: 2rem auto;
   font-family: sans-serif;
 }
+
+.lang-toggle {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
 .navigation-buttons {
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
 }
 </style>
+

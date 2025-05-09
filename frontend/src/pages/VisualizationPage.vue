@@ -3,36 +3,37 @@
     {{ $t('loading') }}…
   </div>
   <div v-else class="visualization-page">
+    <!-- language toggle pill -->
+    <LanguageToggle class="lang-toggle" />
+
     <h2>{{ $t('visualization') }}</h2>
 
-    <!-- single point for the current user -->
+    <!-- matrix gets its full container width, never viewport width -->
     <MatrixVisualization />
 
-    <!-- also allow CSV download -->
+    <!-- CSV export sits at the bottom -->
     <CsvExportButton :answers="answerStore.answers" />
   </div>
 </template>
 
 <script setup>
-import { onMounted }      from 'vue';
-import { useConfigStore } from '@/stores/config';
-import { useAnswerStore } from '@/stores/answers';
+import { onMounted }       from 'vue';
+import { useConfigStore }  from '@/stores/config';
+import { useAnswerStore }  from '@/stores/answers';
 import MatrixVisualization from '@/components/MatrixVisualization.vue';
 import CsvExportButton     from '@/components/CsvExportButton.vue';
+import LanguageToggle      from '@/components/LanguageToggle.vue';
 
 const configStore = useConfigStore();
 const answerStore = useAnswerStore();
 
-// on mount, submit answers + sessionId to the server
 onMounted(() => {
-  // 1) generate or retrieve a persistent sessionId
   let sessionId = localStorage.getItem('sessionId');
   if (!sessionId) {
     sessionId = Date.now().toString(36) + '-' + Math.random().toString(36).substr(2);
     localStorage.setItem('sessionId', sessionId);
   }
 
-  // 2) POST your answers + sessionId
   fetch('/api/submit', {
     method:  'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -61,17 +62,21 @@ onMounted(() => {
   margin-top: 2rem;
 }
 
-/* make this page’s inner card take up 75% of the viewport */
 .visualization-page {
-  max-width: none;         /* ignore the 800px global cap */
-  width: 75vw;             /* 75% of the window width */
+  position: relative;       /* for the pill */
+  padding-top: 3rem;        /* room for the toggle pill */
+  max-width: 900px;
+  width: 90%;               /* adapt to smaller screens */
   margin: 2rem auto;
-  padding: 1rem;
-  background: white;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   text-align: center;
   font-family: sans-serif;
 }
-</style>
 
+/* keep the toggle pill up in the corner */
+.lang-toggle {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+</style>
 
