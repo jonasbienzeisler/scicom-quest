@@ -1,10 +1,13 @@
-# root/docker-compose.yml
+# docker-compose.yml
 services:
   web:
     build: .
     ports:
       - "3000:3000"
     volumes:
-      - ./logs:/usr/src/app/logs   # so results.txt is persisted on your host
+      # persist the results log
+      - ./backend/logs:/usr/src/app/logs
+      # override the baked-in config folder with your local one
+      - ./backend/config:/usr/src/app/config:ro
     environment:
       NODE_ENV: production
