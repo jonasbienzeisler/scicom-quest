@@ -34,14 +34,14 @@ cd scicom-quest
 
 ## Debugging locally
 
-# Backend (runs on http://localhost:3000/)
+### Backend (runs on http://localhost:3000/)
 ```bash
 cd backend
 npm install
 npm start
 ```
 
-# Frontend (runs on http://localhost:8080/, proxies /api → 3000)
+### Frontend (runs on http://localhost:8080/, proxies /api → 3000)
 ```bash
 cd ../frontend
 npm install
@@ -51,16 +51,16 @@ npm run serve
 
 ## Production with Docker
 
-# From the repo root (where docker-compose.yml lives):
+### From the repo root (where docker-compose.yml lives):
 ```bash
 docker compose build
 docker compose up -d
 ```
 
-# Then visit:
+### Use app,  visit:
 http://localhost:3000/
 
-# Configuration (from the repo root where docker-compose.yml lives):
+### Configuration (from the repo root where docker-compose.yml lives):
 Your logs will be persisted to ./logs/results.txt on the host. In ./backend/config right there in your current working directory. The app reads its config from ./backend/config/ (mounted read-only). To apply changes to the config, simply edit the files locally and restart the container while you are in the root folder:
 
 ```bash
