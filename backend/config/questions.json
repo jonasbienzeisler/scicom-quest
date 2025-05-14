@@ -139,6 +139,9 @@
           { "value": "natural_sciences", "label": { "de": "Naturwissenschaften",  "en": "Natural Sciences" } },
           { "value": "social_sciences",  "label": { "de": "Sozialwissenschaften", "en": "Social Sciences" } },
           { "value": "humanities",       "label": { "de": "Geisteswissenschaften","en": "Humanities" } },
+          { "value": "medicine",       "label": { "de": "Medizin","en": "Medicine" } },
+          { "value": "economics",       "label": { "de": "Ökonomie","en": "Economics" } },
+          { "value": "engineering",       "label": { "de": "Ingenieurwissenschaften","en": "Engineering" } },
           { "value": "other",            "label": { "de": "Andere",              "en": "Other" } }
         ],
         "label": {
