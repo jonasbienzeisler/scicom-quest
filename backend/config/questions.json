@@ -4,72 +4,72 @@
         "id": "likert1",
         "dimension": "politics",
         "text": {
-          "de": "Frage 1 zu Politik (DE)",
-          "en": "Question 1 on politics (EN)"
+          "de": "In gesellschaflichen Debatten kämpfe ich für meine politischen Überzeugungen.",
+          "en": "In societal debates, I fight for my political convictions."
         }
       },
       {
         "id": "likert2",
         "dimension": "politics",
         "text": {
-          "de": "Frage 2 zu Politik (DE)",
-          "en": "Question 2 on politics (EN)"
+          "de": "In gesellschaflichen Debatten engagiere ich mich politisch für gesellschaftlichen Wandel.",
+          "en": "In societal debates, I take political action for social change."
         }
       },
       {
         "id": "likert3",
         "dimension": "politics",
         "text": {
-          "de": "Frage 3 zu Politik (DE)",
-          "en": "Question 3 on politics (EN)"
+          "de": "In gesellschaflichen Debatten schließe ich mich mit anderen zusammen, um Mehrheiten fürsinnvolle politische Maßnahmen zu organisieren.",
+          "en": "In societal debates, I join with others to build majorities for meaningful political action."
         }
       },
       {
         "id": "likert4",
         "dimension": "neutrality",
         "text": {
-          "de": "Frage 1 zu Neutralität (DE)",
-          "en": "Question 1 on neutrality (EN)"
+          "de": "In gesellschaflichen Debatten achte ich darauf, keine politischen Ratschläge zu geben.",
+          "en": "In societal debates, I take care not to give political advice."
         }
       },
       {
         "id": "likert5",
         "dimension": "neutrality",
         "text": {
-          "de": "Frage 2 zu Neutralität (DE)",
-          "en": "Question 2 on neutrality (EN)"
+          "de": "In gesellschaflichen Debatten lasse ich mich möglichst nicht in politische Auseinandersetzungen verwickeln.",
+          "en": "In societal debates, I avoid getting involved in political conflicts whenever possible."
         }
       },
       {
         "id": "likert6",
         "dimension": "neutrality",
         "text": {
-          "de": "Frage 3 zu Neutralität (DE)",
-          "en": "Question 3 on neutrality (EN)"
+          "de": "In gesellschaflichen Debatten bleibe ich neutral und unabhängig gegenüber Konfliktparteien.",
+          "en": "In societal debates, I maintain neutrality and independence from conflicting parties."
         }
       },
       {
         "id": "likert7",
         "dimension": "authority",
         "text": {
-          "de": "Frage 1 zu epistemischer Autorität (DE)",
-          "en": "Question 1 on epistemic authority (EN)"
+          "de": "In gesellschaflichen Debatten versuche ich, Politik und Gesellschaft mit meinenwissenschaftlichen Erkenntnissen den besten Weg zu zeigen.",
+          "en": "In societal debates, I strive to demonstrate to politics and society the best way forward with my scientific findings."
         }
       },
       {
         "id": "likert8",
         "dimension": "authority",
         "text": {
-          "de": "Frage 2 zu epistemischer Autorität (DE)",
-          "en": "Question 2 on epistemic authority (EN)"
+          "de": "In gesellschaflichen Debatten wirke ich mit meiner Expertise auf die Umsetzung wissenschaftlichgebotener politischer Maßnahmen hin.",
+          "en": "In societal debates, I use my expertise to work toward the implementation of scientifically appropriate measures."
         }
       },
       {
         "id": "likert9",
         "dimension": "authority",
         "text": {
-          "de": "Frage 3 zu epistemischer Autorität (DE)",
-          "en": "Question 3 on epistemic authority (EN)"
+          "de": "In gesellschaflichen Debatten nutze ich mein Wissen als Expert:in, um die notwendigen Schrittezu begründen.",
+          "en": "In societal debates, I use my knowledge as an expert to justify necessary steps. "
         }
       }
     ],
@@ -77,36 +77,36 @@
       {
         "id": "yesno1",
         "text": {
-          "de": "Verhaltensfrage 1 (DE)",
-          "en": "Behavior question 1 (EN)"
+          "de": "Manche Probleme ließen sich besser lösen, wenn statt gewählten Politiker:innen unabhängige Expert:innen Entscheidungen träfen.",
+          "en": "Some problems would be better solved if independent experts made decisions instead of elected politicians."
         }
       },
       {
         "id": "yesno2",
         "text": {
-          "de": "Verhaltensfrage 2 (DE)",
-          "en": "Behavior question 2 (EN)"
+          "de": "Bei komplexen Fragen sollte schneller gehandelt und weniger öffentlich debattiert werden.",
+          "en": "In complex matters, actions should be taken more quickly and with less public debate."
         }
       },
       {
         "id": "yesno3",
         "text": {
-          "de": "Verhaltensfrage 3 (DE)",
-          "en": "Behavior question 3 (EN)"
+          "de": "Gerade komplexe gesellschaftliche Probleme erfordern umfangreiche gesellschaftliche Debatten.",
+          "en": "Especially complex social issues require extensive public discussions."
         }
       },
       {
         "id": "yesno4",
         "text": {
-          "de": "Verhaltensfrage 4 (DE)",
-          "en": "Behavior question 4 (EN)"
+          "de": "Politische Entscheidungen in komplexen Fragen müssen ohne die Öffentlichkeit beraten werden.",
+          "en": "Political decisions on complex matters should be deliberated without public involvement."
         }
       },
       {
         "id": "yesno5",
         "text": {
-          "de": "Verhaltensfrage 5 (DE)",
-          "en": "Behavior question 5 (EN)"
+          "de": "Auch bei komplexen gesellschaftlichen Problemen sollte öffentlich beredet werden, bevor Entscheidungen getroffen werden.",
+          "en": "Even with complex social problems, public discussion should take place before decisions are made."
         }
       }
     ],
