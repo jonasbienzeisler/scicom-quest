@@ -20,35 +20,35 @@
     "neutrality": [
       {
         "min": 1,
-        "max": 3,
-        "text": { "de": "Reflexion Neutralität Text 1", "en": "Reflection neutrality text 1" }
+        "max": 2,
+        "text": { "de": "Sie sehen sich als jemanden, der die Idee ablehnt, in politischen Auseinandersetzungen neutral zu bleiben. Ihre Haltung zeigt, dass Sie sich der gesellschaftlichen Bedeutung der Wissenschaft bewusst sind und sich nicht hinter einem Schleier aus vermeintlicher Objektivität verstecken wollen. Bedenken Sie jedoch Folgendes: Wenn Wissenschaftskommunikator:innen sich für bestimmte Positionen stark machen, laufen sie Gefahr, als parteiisch angesehen zu werden. Neutralität wird von vielen als eine Grundvoraussetzung für Wissenschaftskommunikation angesehen. Wahrgenommene Neutralität erhöht die Glaubwürdigkeit, insbesondere in einem polarisierten Umfeld. Sie können sich aktiv am öffentlichen Debatten beteiligen, ohne Ihre Ansichten als die einzig gültige Interpretation wissenschaftlicher Fakten darzustellen. Wichtig ist Transparenz darüber, wo Evidenz aufhört und wo Ihre eigenen Interessen beginnen.", "en": "You describe yourself as someone who rejects the idea of being impartial. Your stance reflects that you are aware of the social stakes of science and choose not to hide behind a veil of objectivity. Still, consider this: when science communicators advocate for particular positions, they may risk being seen less as experts and more as partisan. Neutrality is something almost universally expected from science communicators. Perceived neutrality enhances credibility, particularly in polarized environments. You may play an active role in policy-making without presenting your views as the only valid interpretation of scientific facts. What matters is transparency, about where evidence ends and where your own interests begin." }
+      },
+      {
+        "min": 2,
+        "max": 4,
+        "text": { "de": "Sie scheinen sich unsicher zu sein, was Ihre Parteilichkeit angeht. Vielleicht fällt es Ihnen schwer, eine neutrale Position einzunehmen, insbesondere wenn die Themen, über die Sie kommunizieren, politisch oder moralisch aufgeladen sind. Diese Spannung ist normal. Wissenschaft ist kaum je losgelöst von gesellschaftlichen Rahmenbedingungen. Neutralität wird dennoch von vielen als eine Grundvoraussetzung für Wissenschaftskommunikation angesehen. Wahrgenommene Neutralität erhöht die Glaubwürdigkeit, insbesondere in einem polarisierten Umfeld. Neutralität ist jedoch nicht gleichbedeutend mit Unbeteiligtheit. Wenn Sie sich bemühen, neutral zu bleiben, bedeutet das nicht, dass Sie etwas falsch machen. Es kann bedeuten, dass Sie sich in dem schwierigen Spannungsfeld bewegen, in dem sich Wissenschaft, Werte und Politik überschneiden. Anstatt diese Spannung zu verbergen, könnte es hilfreich sein, sie anzuerkennen: Wann sprechen Sie als Wissenschaftskommunikator:in und wann beziehen Sie Stellung?", "en": "You seem unsure about your stance on partiality. Perhaps you find it difficult to maintain a neutral stance, especially when the issues you communicate about are politically or morally charged. This tension is common. Science rarely unfolds in neutral ground. Yet neutrality is something almost universally expected from science communicators. Perceived neutrality enhances credibility, particularly in polarized environments. But neutrality is not the same as non-involvement. Struggling to remain neutral does not mean you are doing something wrong. It may mean you are navigating the difficult middle space where science, values, and politics intersect. Rather than hiding that tension, it might help to acknowledge it: when are you speaking as a science communicator, and when are you taking a stance?" }
       },
       {
         "min": 4,
         "max": 5,
-        "text": { "de": "Reflexion Neutralität Text 2", "en": "Reflection neutrality text 2" }
-      },
-      {
-        "min": 6,
-        "max": 7,
-        "text": { "de": "Reflexion Neutralität Text 3", "en": "Reflection neutrality text 3" }
+        "text": { "de": "Sie sehen sich selbst als jemand, der unparteiisch ist. Dies wird in der Wissenschaftskommunikation oft als Stärke angesehen. Schließlich wird Neutralität von vielen als eine Grundvoraussetzung für Wissenschaftskommunikation angesehen. Wahrgenommene Neutralität erhöht die Glaubwürdigkeit, insbesondere in einem polarisierten Umfeld. Neutralität ist jedoch nicht gleichbedeutend mit Unbeteiligtheit. Sie sollten überlegen, ob Ihre Neutralität auch strategischen Zwecken dient. Geht es immer um Genauigkeit, oder schützen Sie sich damit manchmal vor Kritik?", "en": "You see yourself as someone being impartial. This is often considered a strength in science communication. After all, neutrality is something almost universally expected from science communicators. Perceived neutrality enhances credibility, particularly in polarized environments. But neutrality is not the same as non-involvement. Consider whether your neutrality also serves strategic purposes. Is it always about accuracy, or does it sometimes protect you from critique? " }
       }
     ],
     "authority": [
       {
         "min": 1,
-        "max": 3,
-        "text": { "de": "Reflexion Autorität Text 1", "en": "Reflection authority text 1" }
+        "max": 2,
+        "text": { "de": "Sie sehen sich selbst als jemanden, der keine Autorität über politische Entscheidungen beansprucht. Diese Bescheidenheit stimmt mit dem Modell des Honest Brokers überein. Honest Broker bieten Erkenntnisse dar und unterscheiden dabei klar zwischen wissenschaftlichen Fakten und politischen Entscheidungen. Sie zeigen Optionen auf, anstatt Entscheidungen vorzuschreiben. Sie räumen ein, dass die Wissenschaft Risiken benennen und Optionen aufzeigen, aber keine Entscheidungen treffen kann. Ob etwa Flugreisen verboten oder Steuern erhöht werden, hängt von Werten, Zielkonflikten und gesellschaftlichen Prioritäten ab. Auch wenn Daten zeigen, dass Schulschließungen Familien belasten, sagen das nichts darüber aus, wie dieser Schaden gegen den Schutz älterer Menschen gewichtet werden sollte. Indem Sie sich zurückhalten, erhöhen Sie sogar Ihre Glaubwürdigkeit.", "en": "You see yourself as someone who does not claim much authority in policy-making. That humility reflects a stance that aligns with the model of the honest broker. Honest brokers offer insights while clearly distinguishing scientific facts from policy choices. They outline options rather than prescribe decisions. You acknowledge that scientific knowledge can identify risks and outline policy choices, but it cannot make decisions. Whether air travel should be banned or taxes increased depends on values, trade-offs, and societal priorities. Even if data show that school closures burden families, they do not tell us how this harm should be weighed against the protection of older people. By stepping back, you may actually increase your credibility." }
+      },
+      {
+        "min": 2,
+        "max": 4,
+        "text": { "de": "Sie sehen sich selbst als jemanden, der eine gewisse (aber nicht allzu große) Autorität über politische Entscheidungen beansprucht. Dieser Balanceakt kann schwierig sein. Die Wissenschaft kann Risiken benennen und Optionen aufzeigen, aber keine Entscheidungen treffen. Ob etwa Flugreisen verboten oder Steuern erhöht werden, hängt von Werten, Zielkonflikten und gesellschaftlichen Prioritäten ab. Auch wenn Daten zeigen, dass Schulschließungen Familien belasten, sagen das nichts darüber aus, wie dieser Schaden gegen den Schutz älterer Menschen gewichtet werden sollte. Wenn Wissenschaft zu einem Rezept für politische Entscheidungen wird, kann sie den Raum für Debatten einschränken. ", "en": "You see yourself as someone who claims some (but not too much) authority in policy-making. This balancing act can be difficult. Scientific knowledge can identify risks and outline policy choices, but it cannot make decisions. Whether air travel should be banned or taxes increased depends on values, trade-offs, and societal priorities. Even if data show that school closures burden families, they do not tell us how this harm should be weighed against the protection of older people. When science turns into prescription of policy choices, it can limit space for democratic deliberation. Are you opening up debate, or closing it down? " }
       },
       {
         "min": 4,
         "max": 5,
-        "text": { "de": "Reflexion Autorität Text 2", "en": "Reflection authority text 2" }
-      },
-      {
-        "min": 6,
-        "max": 7,
-        "text": { "de": "Reflexion Autorität Text 3", "en": "Reflection authority text 3" }
+        "text": { "de": "Sie sehen sich selbst als jemanden, der aufgrund seines Fachwissens politische Entscheidungen anleiten kann. Dieses Selbstbewusstsein birgt Risiken. Wenn Sie davon ausgehen, dass die Wissenschaft gesellschaftliche Probleme eindeutige lösen kann, können sie ungewollt politische Fragen als technische darstellen. Die Wissenschaft kann Risiken benennen und Optionen aufzeigen, aber keine Entscheidungen treffen. Ob etwa Flugreisen verboten oder Steuern erhöht werden, hängt von Werten, Zielkonflikten und gesellschaftlichen Prioritäten ab. Auch wenn Daten zeigen, dass Schulschließungen Familien belasten, sagen das nichts darüber aus, wie dieser Schaden gegen den Schutz älterer Menschen gewichtet werden sollte. Wenn Wissenschaft zu einem Rezept für politische Entscheidungen wird, kann sie den Raum für Debatten einschränken. ", "en": "You perceive yourself as someone whose expertise carries strong authority in policy-making. This confidence comes with risks. When you assert that research implies one correct course of action, you may unintentionally frame political questions as technical ones. Scientific knowledge can identify risks and outline policy choices, but it cannot make decisions. Whether air travel should be banned or taxes increased depends on values, trade-offs, and societal priorities. Even if data show that school closures burden families, they do not tell us how this harm should be weighed against the protection of older people. When science turns into prescription of policy choices, it can limit space for democratic deliberation. Are you opening up debate, or closing it down?" }
       }
     ]
   },
