@@ -3,18 +3,18 @@
     "politics": [
       {
         "min": 1,
-        "max": 3,
+        "max": 2,
         "text": { "de": "Sie nehmen sich selbst als jemand wahr, der sich aus politischen Entscheidungsprozessen lieber heraushält und sind vielleicht kritisch, wenn sich andere Wissenschaftler:innen politisch engagieren und dabei die Grenze zwischen wissenschaftlicher Evidenz und politischen Interessen verwischen. Politik ist allerdings im Kern das Aushandeln gesellschaftlicher Entscheidungen, um Interessen durchzusetzen. Wenn Sie sich zurückhalten, zeugt das zwar von Integrität. Doch bedenken Sie: Bedeutet Zurückhaltung wirklich, dass Sie der Wissenschaft einen Gefallen tun oder überlassen Sie damit anderen das Feld? Denn auch Sie sind Bürger:in.", "en": "You perceive of yourself as someone who prefers to stay out of policy-making. You might be critical of science communicators who engage in politics, as they blur the boundaries between scientific evidence and advocacy. But politics, at its core, is the bargaining over societal outcomes—about who gets what, when, and how. If you hold back because you respect that boundary, it shows integrity. Yet ask yourself: does silence truly preserve the value of science, or cede influence to others? Because you are a citizen too." }
+      },
+      {
+        "min": 2,
+        "max": 4,
+        "text": { "de": "Sie sind sich unsicher, ob Sie sich politisch engagieren sollten. Diese Unsicherheit ist nachvollziehbar: Viele Wissenschaftler:innen stellen sich dieselbe Frage. Ihr Zögern zeigt, dass Sie die Herausforderungen an der Schnittstelle zwischen Wissenschaft und Politik ernst nehmen. Wo positionieren Sie sich dazwischen? Vielleicht nicht mit einer festen Antwort, aber mit einer wichtigen Frage: Welche Rolle möchten Sie spielen? Möchten Sie nur informieren oder auch mitgestalten? Können Sie Wissen teilen, ohne Handlungen vorzuschreiben? Es gibt keinen richtigen Weg. Entscheidend ist, dass Sie sich Ihrer ambivalenten Rolle bewusst bleiben. ", "en": "You describe yourself as uncertain about whether you should get involved in policy-making. That hesitation is understandable: many scientists grapple with the same question. Your doubt reflects awareness of the challenges at the science-policy boundary. Where does that leave you? Perhaps not with a fixed answer, but with an opportunity: to ask yourself what role you want to play. Do you want to simply inform, or also to shape outcomes? Can you share knowledge without prescribing action? There’s no single path. What matters is that you remain reflective. " }
       },
       {
         "min": 4,
         "max": 5,
-        "text": { "de": "Reflexion Politik Text 2", "en": "Reflection politics text 2" }
-      },
-      {
-        "min": 6,
-        "max": 7,
-        "text": { "de": "Reflexion Politik Text 3", "en": "Reflection politics text 3" }
+        "text": { "de": "Sie sehen sich als jemand, der sich aktiv politisch einbringt. Dieses Engagement zeugt von Mut und Verantwortungsbewusstsein. Sie möchten, dass Ihre Forschung über Publikationen und Zitationen hinaus die Gesellschaft beeinflusst. Eine Beteiligung an politischen Auseinandersetzungen kann die Grenze zwischen wissenschaftlicher Evidenz und politischen Interessen verwischen. Politik ist im Kern das Aushandeln gesellschaftlicher Entscheidungen, um Interessen durchzusetzen. Sie bewegen sich also auf einem schmalen Grat. Überlegen Sie, wie Ihr politisches Engagement nicht nur das öffentliche Bewusstsein prägt, sondern auch Diskursspielräume. Ihr Einfluss ist real, ebenso Ihre Verantwortung.", "en": "You see yourself as someone who takes an active role in policy-making. Your commitment signals courage and a sense of responsibility. Your engagement shows that you want your research to matter beyond publications and citations. At the same time, being involved can blur the boundaries between scientific evidence and advocacy. Politics, at its core, is the bargaining over societal outcomes—about who gets what, when, and how. Thus, you walk a fine line. We encourage you to reflect on how your political involvement shapes not just the public’s understanding of societal issues, but also the space for democratic deliberation. Your influence is real, so is your responsibility." }
       }
     ],
     "neutrality": [
